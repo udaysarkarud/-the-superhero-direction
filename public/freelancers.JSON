@@ -1,0 +1,98 @@
+[
+    {
+        "key": "6P7Q8SATBU",
+        "category": "laptop",
+        "name": "Arthur Maske",
+        "email": "arthuraske@gmail.com",
+        "phone": "+1 789 654 5879",
+        "address": "Lafayette, LA 70503",
+        "star": 3,
+        "starCount": 3245,
+        "salary": 68.36,
+		"img": "https://pbs.twimg.com/media/EuDcrADXAAcvHn2.jpg"
+    },
+	{
+        "key": "K4M5P7Q8RA",
+        "category": "laptop",
+        "name": "Christopher Bowling",
+        "email": "christopherbowling@gmail.com",
+        "phone": "+1 654 879 5412",
+        "address": "Clear Lake, IA 50428",
+        "star": 3,
+        "starCount": 3245,
+        "salary": 68.36,
+		"img": "https://pbs.twimg.com/media/EuDcrADXAAcvHn2.jpg"
+    },
+	{
+        "key": "ZH2K4M5N7Q",
+        "category": "laptop",
+        "name": "Jimmie Zink",
+        "email": "jimmiezink@gmail.com",
+        "phone": "+1 987 451 6587",
+        "address": "Palo Alto, CA 94306",
+        "star": 3,
+        "starCount": 3245,
+        "salary": 68.36,
+		"img": "https://pbs.twimg.com/media/EuDcrADXAAcvHn2.jpg"
+    },
+	{
+        "key": "EXGZH2J4M5",
+        "category": "laptop",
+        "name": "Susie Foy",
+        "email": "susiefoy@gmail.com",
+        "phone": "+1 695 478 9578",
+        "address": "Raleigh, NC 27601",
+        "star": 3,
+        "starCount": 3245,
+        "salary": 68.36,
+		"img": "https://pbs.twimg.com/media/EuDcrADXAAcvHn2.jpg"
+    },
+	{
+        "key": "UDWEXFYH2J",
+        "category": "laptop",
+        "name": "Andrew Long",
+        "email": "andrewlong@gmail.com",
+        "phone": "+1 874 594 2154",
+        "address": "Suitland, MD 20746",
+        "star": 3,
+        "starCount": 3245,
+        "salary": 68.36,
+		"img": "https://pbs.twimg.com/media/EuDcrADXAAcvHn2.jpg"
+    },
+	{
+        "key": "ATBUCVEXFY",
+        "category": "laptop",
+        "name": "Daisy McCoy",
+        "email": "daisymcCoy@gmail.com",
+        "phone": "+1 487 957 1458",
+        "address": "Seattle, WA 98109",
+        "star": 3,
+        "starCount": 3245,
+        "salary": 68.36,
+		"img": "https://pbs.twimg.com/media/EuDcrADXAAcvHn2.jpg"
+    },
+	{
+        "key": "Q8R9SBUCVD",
+        "category": "laptop",
+        "name": "Carolyn Wylie",
+        "email": "Carolynwylie@gmail.com",
+        "phone": "+1 365 784 9874",
+        "address": "Chicago, IL 60605",
+        "star": 3,
+        "starCount": 3245,
+        "salary": 68.36,
+		"img": "https://pbs.twimg.com/media/EuDcrADXAAcvHn2.jpg"
+    },
+	{
+        "key": "5N6P8R9SAU",
+        "category": "laptop",
+        "name": "Pete Stillman",
+        "email": "petestillman@gmail.com",
+        "phone": "+1 254 874 9874",
+        "address": "Otway, OH 45657",
+        "star": 3,
+        "starCount": 3245,
+        "salary": 68.36,
+		"img": "https://pbs.twimg.com/media/EuDcrADXAAcvHn2.jpg"
+    }
+]
