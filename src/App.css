@@ -5,3 +5,7 @@ body{
 .custom-gap{
     margin: 6rem 0rem 6rem 0rem;
 }
+i{
+    margin-left: 5px;
+    margin-right: 5px;
+}

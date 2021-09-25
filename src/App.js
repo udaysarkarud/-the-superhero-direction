@@ -3,10 +3,9 @@ import AssociateBrands from './components/AssociateBrands/AssociateBrands';
 import Banner from './components/Banner/Banner';
 import CopyRight from './components/CopyRight/CopyRight';
 import FooterMenu from './components/FooterMenu/FooterMenu';
+import FreelancerArea from './components/FreelancerArea/FreelancerArea';
 import Heroarea from './components/Heroarea/Heroarea';
 import Navbar from './components/Navbar/Navbar';
-import SelectionStatus from './components/SelectionStatus/SelectionStatus';
-import SingleFreelancer from './components/SingleFreelancer/SingleFreelancer';
 
 function App() {
   return (
@@ -15,22 +14,14 @@ function App() {
         <Navbar />
         <Heroarea />
       </header>
+
       <main className="container">
         <section className="my-2 text-center">
           <AssociateBrands />
         </section>
 
         <section className="custom-gap">
-          <div className="row">
-            <div className="col-12 col-lg-3">
-              <SelectionStatus />
-            </div>
-            <div className="col-12 col-lg-9">
-              <div className="row row-cols-1 row-cols-md-3 g-4">
-                <SingleFreelancer />
-              </div>
-            </div>
-          </div>
+          <FreelancerArea />
         </section>
 
         <section className="bg-success bg-opacity-25 rounded-3">

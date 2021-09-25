@@ -1,4 +1,3 @@
-import React from 'react';
 import BannerPhoneImg from '../../images/phones.png';
 
 const Banner = () => {
