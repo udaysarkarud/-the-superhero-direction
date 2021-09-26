@@ -4,22 +4,26 @@ import SingleFreelancer from '../SingleFreelancer/SingleFreelancer';
 
 const FreelancerArea = () => {
     //Load API Data
-    const [allFreelancers, setAllFreelancers] = useState([])
+    const [allFreelancers, setAllFreelancers] = useState([]);
     useEffect(() => {
         fetch('./freelancers.JSON')
             .then(res => res.json())
             .then(data => setAllFreelancers(data))
-    }, [])
+    }, []);
 
     //Show Status
-    const [teamMembers, setTeamMembers] = useState([])
-
+    const [teamMembers, setTeamMembers] = useState([]);
     const addToteam = (addFreelancer) => {
-        const newFreelancer = [...teamMembers, addFreelancer]
-        setTeamMembers(newFreelancer)
+        const checkExistence = teamMembers.findIndex(checkMember => checkMember.key === addFreelancer.key);
+
+        if (checkExistence === -1) {
+            const newFreelancer = [...teamMembers, addFreelancer];
+            setTeamMembers(newFreelancer);
+        }
     }
 
     return (
+        /* Show Freelancer data and Selection Status */
         <div className="row">
             <div className="col-12 col-lg-3">
                 <SelectionStatus teamStatus={teamMembers} />

@@ -6,8 +6,9 @@ import AssociateBrandImg04 from '../../images/brands/associatebrands-04.png';
 
 const AssociateBrands = () => {
     return (
+        /* Associate Brands Section */
         <>
-            <h2 className="fs-5 text-primary text-center">some of our 500 clients already using dugilan</h2>
+            <h2 className="fs-5 text-primary text-center">around 135 brands already associate dugilan</h2>
             <div className="my-3">
                 <img className="img-fluid" src={AssociateBrandImg01} alt="" />
                 <img className="img-fluid" src={AssociateBrandImg02} alt="" />

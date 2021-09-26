@@ -4,11 +4,10 @@ const Banner = () => {
     return (
         <div className="row align-items-center">
             <div className="col-12 col-lg-6 p-5">
-                <h2>We build apps and websites</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque exercitationem, animi amet quasi
-                    repellat quae rerum et repudiandae! Minima corporis nostrum sunt.</p>
+                <h2>We Help To Build Your Teach Team</h2>
+                <p>chose your best team for your application project. NB: Check freelancer profile and rating before add them to your team. You alco can directly contact with them over phone and calls.</p>
                 <button className="btn btn-primary">Click To Contact</button>
-                or see our works
+                <span> or see our works</span>
             </div>
             <div className="col-12 col-lg-6">
                 <img className="img-fluid" src={BannerPhoneImg} alt="" />

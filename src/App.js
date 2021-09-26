@@ -2,7 +2,7 @@ import './App.css';
 import AssociateBrands from './components/AssociateBrands/AssociateBrands';
 import Banner from './components/Banner/Banner';
 import CopyRight from './components/CopyRight/CopyRight';
-import FooterMenu from './components/FooterMenu/FooterMenu';
+
 import FreelancerArea from './components/FreelancerArea/FreelancerArea';
 import Heroarea from './components/Heroarea/Heroarea';
 import Navbar from './components/Navbar/Navbar';
@@ -30,11 +30,7 @@ function App() {
       </main>
 
       <footer className="container">
-        <section className="custom-gap">
-          <FooterMenu />
-        </section>
-
-        <section className="d-flex justify-content-around border-top border-2 py-5">
+        <section className="custom-gap d-flex justify-content-around border-top border-2 py-5">
           <CopyRight />
         </section>
       </footer>

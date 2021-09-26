@@ -3,6 +3,7 @@ import logo from '../../images/Logo.png'
 
 const Navbar = () => {
     return (
+        /* Navigation Bar */
         <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
             <div className="container-fluid">
                 <a className="navbar-brand" href="https://dugilan-udaysarkarud.netlify.app">

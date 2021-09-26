@@ -2,9 +2,10 @@ import FreelancersOnTeam from '../FreelancersOnTeam/FreelancersOnTeam';
 
 const SelectionStatus = (props) => {
     const totalFreelancers = props.teamStatus
-    const totalSalar = totalFreelancers.reduce((previousValue, currentValue) => previousValue + currentValue.salary, 0)
+    const totalSalary = totalFreelancers.reduce((previousValue, currentValue) => previousValue + currentValue.salary, 0)
 
     return (
+        /* Status Area for Selected Freelancer */
         <>
             <div className="selction-status">
                 <div className="bg-primary rounded-3">
@@ -22,7 +23,7 @@ const SelectionStatus = (props) => {
                             <div className="ms-2 me-auto">
                                 <div className="fw-bold">Total Fees: </div>
                             </div>
-                            <span className="badge bg-primary rounded-pill">{totalSalar.toFixed(2)}</span>
+                            <span className="badge bg-primary rounded-pill">$ {totalSalary.toFixed(2)}</span>
                         </li>
                     </ol>
                 </div>
@@ -35,7 +36,7 @@ const SelectionStatus = (props) => {
                 <div>
                     <ol className="list-group list-group-numbered">
                         {
-                            totalFreelancers.map(aafff => <FreelancersOnTeam key={aafff.key} frealancerDataforStatus={aafff} />)
+                            totalFreelancers.map(selectedFL => <FreelancersOnTeam key={selectedFL.key} frealancerDataforStatus={selectedFL} />)
                         }
                     </ol>
 
