@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Rating from 'react-rating';
 
 const SingleFreelancer = (props) => {
     const { category, name, email, phone, address, star, salary, img } = props.flData;
+
+    const [btnStatus, setBtnStatus] = useState(false)
+    const addedFreelancerOnList = () => {
+        setBtnStatus(true)
+        props.addFreelancer(props.flData);
+    }
     return (
         <div className="col">
             <div className="card">
@@ -23,7 +29,7 @@ const SingleFreelancer = (props) => {
                         <br />Address: {address}
                     </p>
                 </div>
-                <button className="btn btn-primary" onClick={() => props.addFreelancer(props.flData)}>Add To Team</button>
+                <button className="btn btn-primary" disabled={btnStatus} onClick={addedFreelancerOnList}>Add To Team</button>
             </div>
         </div>
     );
