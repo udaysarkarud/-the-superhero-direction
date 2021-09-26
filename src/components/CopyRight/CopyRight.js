@@ -4,7 +4,7 @@ const CopyRight = () => {
     return (
         <>
             <div className="">
-                <p>2020 Dugilan. All right reserved</p>
+                <p>&copy; 2020 Dugilan. All right reserved</p>
             </div>
             <div>
                 <i className="bi bi-twitter"></i>
