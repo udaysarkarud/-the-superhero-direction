@@ -37,7 +37,7 @@ const SingleFreelancer = (props) => {
                         <br />Add: {address}
                     </p>
                 </div>
-                <button className="btn btn-primary" disabled={btnStatus} onClick={addedFreelancerOnList}><i class="bi bi-person-plus"></i> Add To Team</button>
+                <button className="btn btn-primary" disabled={btnStatus} onClick={addedFreelancerOnList}><i className="bi bi-person-plus"></i> Add To Team</button>
             </div>
         </div >
     );

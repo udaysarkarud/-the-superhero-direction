@@ -17,7 +17,7 @@
     "email": "jbowman@gmail.com",
     "phone": "+1 979 237 5022",
     "address": "Hyde Park, MA 02136",
-	"star": 5,
+    "star": 5,
     "salary": 123000,
     "img": "https://images.generated.photos/yXdEMcmqnzwWUIiCLx48sA5RDwj_WpRWAHtx6oOPXMc/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NTQwNDYzLmpwZw.jpg"
   },
@@ -42,8 +42,7 @@
     "star": 2,
     "salary": 98000,
     "img": "https://images.generated.photos/kRvc7xrX8KcU--VWzyowJO6kZyaGUMzlZijWwgwqjbQ/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTIxNTc4LmpwZw.jpg"
-  }
-  ,
+  },
   {
     "key": "ZH2K4M5N7Q",
     "category": "Backend Developer",
