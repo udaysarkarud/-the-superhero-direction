@@ -1,6 +1,9 @@
-import React from 'react';
+import FreelancersOnTeam from '../FreelancersOnTeam/FreelancersOnTeam';
 
-const SelectionStatus = () => {
+const SelectionStatus = (props) => {
+    const totalFreelancers = props.teamStatus
+    const totalSalar = totalFreelancers.reduce((previousValue, currentValue) => previousValue + currentValue.salary, 0)
+
     return (
         <>
             <div className="selction-status">
@@ -13,13 +16,13 @@ const SelectionStatus = () => {
                             <div className="ms-2 me-auto">
                                 <div className="fw-bold">Total Members: </div>
                             </div>
-                            <span className="badge bg-primary rounded-pill">14</span>
+                            <span className="badge bg-primary rounded-pill">{totalFreelancers.length}</span>
                         </li>
                         <li className="list-group-item d-flex justify-content-between align-items-start">
                             <div className="ms-2 me-auto">
                                 <div className="fw-bold">Total Fees: </div>
                             </div>
-                            <span className="badge bg-primary rounded-pill">14</span>
+                            <span className="badge bg-primary rounded-pill">{totalSalar.toFixed(2)}</span>
                         </li>
                     </ol>
                 </div>
@@ -31,28 +34,11 @@ const SelectionStatus = () => {
                 </div>
                 <div>
                     <ol className="list-group list-group-numbered">
-                        <li className="list-group-item d-flex justify-content-between align-items-start">
-                            <div className="ms-2 me-auto">
-                                <div className="fw-bold">Subheading</div>
-                                Cras justo odio
-                            </div>
-                            <span className="badge bg-primary rounded-pill">14</span>
-                        </li>
-                        <li className="list-group-item d-flex justify-content-between align-items-start">
-                            <div className="ms-2 me-auto">
-                                <div className="fw-bold">Subheading</div>
-                                Cras justo odio
-                            </div>
-                            <span className="badge bg-primary rounded-pill">14</span>
-                        </li>
-                        <li className="list-group-item d-flex justify-content-between align-items-start">
-                            <div className="ms-2 me-auto">
-                                <div className="fw-bold">Subheading</div>
-                                Cras justo odio
-                            </div>
-                            <span className="badge bg-primary rounded-pill">14</span>
-                        </li>
+                        {
+                            totalFreelancers.map(aafff => <FreelancersOnTeam key={aafff.key} frealancerDataforStatus={aafff} />)
+                        }
                     </ol>
+
                 </div>
             </div>
         </>

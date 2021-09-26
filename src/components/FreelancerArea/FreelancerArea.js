@@ -12,16 +12,22 @@ const FreelancerArea = () => {
     }, [])
 
     //Show Status
+    const [teamMembers, setTeamMembers] = useState([])
+
+    const addToteam = (addFreelancer) => {
+        const newFreelancer = [...teamMembers, addFreelancer]
+        setTeamMembers(newFreelancer)
+    }
 
     return (
         <div className="row">
             <div className="col-12 col-lg-3">
-                <SelectionStatus />
+                <SelectionStatus teamStatus={teamMembers} />
             </div>
             <div className="col-12 col-lg-9">
                 <div className="row row-cols-1 row-cols-md-3 g-3">
                     {
-                        allFreelancers.map(freelancer => <SingleFreelancer key={freelancer.key} flData={freelancer} />)
+                        allFreelancers.map(freelancer => <SingleFreelancer key={freelancer.key} flData={freelancer} addFreelancer={addToteam} />)
                     }
                 </div>
             </div>
